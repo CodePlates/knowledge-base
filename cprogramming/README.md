@@ -1,3 +1,3 @@
 # C / C++ Programming
 
-- [Pointers in C](pointers)
+- [Pointers in C](pointers/)
