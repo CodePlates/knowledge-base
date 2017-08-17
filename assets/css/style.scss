@@ -1,8 +1,14 @@
 ---
 ---
 
+
 @import "{{ site.theme }}";
 
+code, pre {
+  tab-size: 4; /* Set tab size to 4 spaces */
+  -moz-tab-size: 4;
+  line-height: 18px;
+}
 .header, footer {
 	text-align: center;
 }
@@ -19,7 +25,6 @@ header {
 
 body {
 	padding-top: 0px;
-
 }
 
 .nav li a {
@@ -30,5 +35,5 @@ body {
 }
 
 .nav li.current {
-	background: -webkit-linear-gradient(top, #AF0011 0%, #d80011 100%);
+	background: -webkit-linear-gradient(top, #AF0011 0%, #e80011 100%);
 }

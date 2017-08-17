@@ -241,6 +241,8 @@ footer { width: 170px; float: left; position: fixed; bottom: 10px; padding-left:
   footer { margin: 0 0 0 20px; }
   footer a { display: block; } }
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
+code, pre { tab-size: 4; /* Set tab size to 4 spaces */ -moz-tab-size: 4; line-height: 18px; }
+
 .header, footer { text-align: center; }
 
 footer { color: #6e6e6e; }
@@ -251,4 +253,4 @@ body { padding-top: 0px; }
 
 .nav li a { display: block; width: 100%; padding-left: 15px; outline: 0; }
 
-.nav li.current { background: -webkit-linear-gradient(top, #AF0011 0%, #d80011 100%); }
+.nav li.current { background: -webkit-linear-gradient(top, #AF0011 0%, #e80011 100%); }
