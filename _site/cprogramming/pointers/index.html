@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.2.3 -->
+<title>Pointers In C | [“Knowledge Base”]</title>
+<meta property="og:title" content="Pointers In C" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="[“Useful information on a wide variety of topics for software development”]" />
+<meta property="og:description" content="[“Useful information on a wide variety of topics for software development”]" />
+<link rel="canonical" href="http://localhost:4000/cprogramming/pointers/" />
+<meta property="og:url" content="http://localhost:4000/cprogramming/pointers/" />
+<meta property="og:site_name" content="[“Knowledge Base”]" />
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"WebPage","headline":"Pointers In C","description":"[“Useful information on a wide variety of topics for software development”]","url":"http://localhost:4000/cprogramming/pointers/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <script src="/assets/js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header"><a href="/">Knowledge Base</a></h1>
+        <p class="header">Useful information on a wide variety of topics for software development</p>
+        
+        <ul class="nav">
+          <li class="current"><a href="/cprogramming">C/C++</a></li>
+          <li><a href="#">PHP</a></li>
+        </ul>
+
+        <ul>
+          
+        </ul>
+
+        
+
+
+      </header>
+
+      <section>
+        <h1 id="pointers-in-c">Pointers In C</h1>
+
+<p>Pointers are one of the most dreaded topics in C but also one of the most useful.
+This tutorial attempts to explain the basics of pointers so you can gain better understanding and make best use of them.</p>
+
+<h2 id="what-is-a-pointer">What is a pointer?</h2>
+<p>A pointers is simply a variable that stores the address of another variable.
+Variables are stored in memory locations that have addresses. 
+When you declare a variable in a C program, the compiler sets aside a memory location with a unique address to store that variable. The compiler associates that address with the variable’s name. When your program uses the variable name, it automatically accesses the proper memory location.
+for example</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>int num = 10;
+</code></pre>
+</div>
+<p>this creates a variable “num” at a certain location in memory. To see that location you use “&amp;” before the variable name</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>printf("Address of num: %p\n", &amp;num);
+</code></pre>
+</div>
+
+<p>output will be something like</p>
+
+<p><strong>Address of num: 0x7ffcf8949fb4</strong></p>
+
+      </section>
+
+      <footer>
+        <p><small>This project is maintained by <a href="">Code Plates</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
