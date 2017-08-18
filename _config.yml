@@ -3,6 +3,7 @@ github: [metadata]
 title: [Knowledge Base]
 repository: codeplates/knowledge-base
 description: [Useful information on a wide variety of topics for software development]
+google_analytics: UA-104912363-1
 gems:
   - jekyll-seo-tag
   - jekyll-github-metadata
