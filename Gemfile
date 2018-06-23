@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-gem "github-pages", group: :jekyll_plugins
+ruby RUBY_VERSION # Added for GitLab
+
 gem 'jekyll-seo-tag'
 gem 'jekyll-github-metadata'
 gem 'execjs'
