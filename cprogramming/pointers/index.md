@@ -20,7 +20,7 @@ output will be something like
 
 **Address of num: 0x7ffcf8949fb4**
 
-##Declaring pointers and assigning values
+## Declaring pointers and assigning values  
 Declaring a pointer follows the same conventions as regular variables except you use “*” before the variable name
 
 `typename *ptrname;`
